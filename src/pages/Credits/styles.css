@@ -1,6 +1,3 @@
-#root {
-    background-color: var(--color-primary);
-}
 
 .person-item {
     background: var(--color-box-base);
@@ -12,6 +9,12 @@
     padding: 3rem 3rem;
     display: flex;
     align-items: center;
+}
+
+.person-item header img:first-child {
+    width: 5rem;
+    height: 5rem;
+    margin-right: 10px;
 }
 
 .person-item header img {

@@ -11,8 +11,8 @@ function Landing() {
         <div id="page-landing">
             <div id="page-landing-content" className="container">
                 <div className="logo-container">
-                    <h2>Desafio #30diascss</h2>
-                    <p>Projeto para armazenar os desafios realizados em um só local.</p>
+                    <h2>Challenge #30dayscss</h2>
+                    <p>Keep your projects in one local.</p>
                 </div>
 
                 <img
@@ -24,11 +24,11 @@ function Landing() {
                 <div className="buttons-container">
                     <Link to="/challengesList" className="monitor">
                         <img src={monitorIcon} alt="Desafios" />
-                        Desafios
+                        Challenges
                     </Link>
                     <Link to="/credits" className="person">
                         <img src={personIcon} alt="Creditos" />
-                        Créditos
+                        Credits
                     </Link>
                 </div>
             </div>

@@ -8,8 +8,8 @@ function Routes() {
     return (
         <BrowserRouter>
             <Route path="/" exact component={Landing} />
-            {/* <Route path="/challenges" component={ChallengesList} />
-            <Route path="/credits" component={Credits} /> */}
+            <Route path="/challenges" component={ChallengesList} />
+            <Route path="/credits" component={Credits} /> 
         </BrowserRouter>
     )
 }

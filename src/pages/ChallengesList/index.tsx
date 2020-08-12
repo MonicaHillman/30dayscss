@@ -2,7 +2,9 @@ import React from 'react';
 
 function ChallengesList() {
     return (
-        console.log()
+        <div id="page-credits">
+            
+        </div>
     );
 }
 

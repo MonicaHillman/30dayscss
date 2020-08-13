@@ -1,6 +1,6 @@
 :root {
     font-size: 60%;
-    
+   
   --color-background: #F0F0F7;
   --color-primary-lighter: #80c9c1;
   --color-primary-light: #36c2b4;
@@ -38,9 +38,7 @@ body{
 #root {
     display: flex;
     align-items: center;
-    justify-content:center;
-    background-color: var(--color-primary);
-    
+    justify-content:center;   
 }
 
 body, input, button, textarea {
@@ -49,9 +47,11 @@ body, input, button, textarea {
 }
 
 .container {
-    width: 90vw;
+    width: 100vw;
     max-width: 700px;
+  
 }
+
 
 @media (min-width: 700px) {
     :root {

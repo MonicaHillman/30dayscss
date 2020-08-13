@@ -13,6 +13,9 @@ function Landing() {
                 <div className="logo-container">
                     <h2>Challenge #30dayscss</h2>
                     <p>Keep your projects in one local.</p>
+                    <br/>
+                    <p>Creator of the challenge: Milena Carecho</p>
+                    <p>Developer: Monica Hillman</p>
                 </div>
 
                 <img

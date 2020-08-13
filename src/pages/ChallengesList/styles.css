@@ -1,0 +1,59 @@
+#page-challenge-list {
+    height: 100vh;
+}
+
+#page-challenge-list main {
+    background: var(--color-box-base);
+    max-width: 74rem;
+    padding-top: 1rem;
+    overflow: hidden;
+}
+
+#page-challenge-list main p {
+    font: 400 2rem Archivo;
+    color: var(--color-text-title);
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    width: 90%;
+    padding-bottom: 1rem;
+}
+
+    #page-challenge-list main div img {
+    margin: 10px;
+    max-width: 40rem;
+    }
+
+
+
+@media (min-width: 700px) {
+
+    #page-challenge-list {
+        max-width: 2200px;
+        height: 100vh;
+    }
+
+    #page-challenge-list main {
+    background: var(--color-box-base);
+    max-width: 190rem;
+    padding-top: 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "challenge challenge"
+        "pic pic";
+    }
+
+    #page-challenge-list main p {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .img-container {
+        grid-area: pic;
+        margin-left: 6rem
+    }
+
+
+}

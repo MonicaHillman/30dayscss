@@ -1,0 +1,38 @@
+.page-header {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-primary);
+}
+
+.page-header .top-bar-container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--color-text-in-primary);
+    padding: 1.6rem 0;
+}
+
+.page-header .top-bar-container a {
+    height: 3rem;
+    transition: opacity 0.2%;
+}
+
+.page-header .top-bar-container a:hover {
+    opacity: 0.6;
+}
+
+.page-header .top-bar-container img {
+    height: 3rem;
+}
+
+@media (min-width: 700px) {
+    .page-header {
+        height: 65px;
+    }
+
+    .page-header .top-bar-container {
+        max-width: 2060px;
+    }
+}

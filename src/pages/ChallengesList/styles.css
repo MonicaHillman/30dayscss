@@ -42,7 +42,7 @@
     grid-template-columns: 1fr 1fr;
         grid-template-areas: 
         "challenge challenge"
-        "pic pic";
+        "pic pics";
     }
 
     #page-challenge-list main p {
@@ -52,6 +52,10 @@
 
     .img-container {
         grid-area: pic;
+        margin-left: 6rem
+    }
+    .img-container-two {
+        grid-area: pics;
         margin-left: 6rem
     }
 

@@ -3,6 +3,7 @@ import React from 'react';
 import './styles.css';
 import PageHeader from '../../components/Header';
 import dayOneImg from '../../assets/images/dayone.png';
+import dayTwoImg from '../../assets/images/daytwo.png';
 import { Link } from 'react-router-dom';
 
 
@@ -21,6 +22,11 @@ function ChallengesList() {
                 </Link>
                 </div>
                 <p>Day 2 - Animated Loader</p>
+                <div className="img-container-two">
+                <Link to="/daytwo">
+                    <img src={dayTwoImg} alt="Day Two" />
+                </Link>
+                </div>
                 <p>Day 3 - Change Color</p>
                 <p>Day 4 - Button Effect</p>
             </main>

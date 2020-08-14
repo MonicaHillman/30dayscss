@@ -19,10 +19,9 @@
     
   .loading{
     position: absolute;
-    display: inline-block;
-    top: 50%;
-    left: 14%;
-    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 7%;
+
     font-size:20px;
   }
 
@@ -59,7 +58,6 @@
     }
 
     .loading {
-        top: 50%;
-        left: 50%;
-    }
+      left: 20%;
+  }
 }

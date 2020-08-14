@@ -1,10 +1,10 @@
 .page-credits {
 background-color: var(--color-primary);
 height: 100vh;
+display: flex;
 }
 
 .person-item {
-    margin-top: 20px;
     background: var(--color-box-base);
     border: 1px solid var(--color-line-in-white);
     border-radius: 0.8rem;
@@ -33,7 +33,7 @@ height: 100vh;
 }
 
 .person-item header div strong {
-    font: 700 2.4rem Archivo;
+    font: 700 2rem Poppins;
     display: block;
     color: var(--color-text-title);
 }
@@ -44,53 +44,34 @@ height: 100vh;
     margin-top: 0.4rem;
 }
 
-.person-item > p {
-    padding: 1.2rem;
-    font-size: 1.6rem;
+.texto p {
+    font: 400 2.4rem Archivo;
+    font-size: 1.8rem;
     line-height: 2.8rem;
-}
-
-.person-item footer {
     padding: 3.2rem 2rem;
     background: var(--color-box-footer);
-    border-top: 1px solid var(--color-line-in-white);
-    margin-top: 3.2rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+   
 }
 
-.person-item footer a {
+.texto a {
     height: 3rem;
-    display: flex;
-    align-items: center;
+    margin-left: 1rem;
+   
 }
 
 @media (min-width: 1100px) {
     .person-item {
         margin-top: 10rem;
-        margin-bottom: 10rem;
+        margin-bottom: 22rem;
         margin-right: 20rem;
         margin-left: 20rem;
-        overflow: hidden;
     }
 
-    .person-item header,
-    .person-item footer {
-        padding: 3.2rem;
+    .texto p {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+        padding: 3.2rem 2rem;
     }
 
-    .person-item > p {
-        padding: 0 3.2rem;
-    }
-
-    .person-item footer p strong {
-        display: initial;
-        margin-left: 1.6rem;
-    }
-
-    .person-item footer a {
-        justify-content: center;
-    }
-
+ 
 }

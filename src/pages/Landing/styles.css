@@ -1,9 +1,7 @@
 #page-landing {
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
-    align-items: center;
     color: var(--color-text-in-primary);
     background: var(--color-primary);
 }
@@ -14,27 +12,28 @@
 
 .logo-container {
     text-align: center;
-    margin-bottom: 3.2rem;
+}
+
+.logo-container p {
+    font: 400 1.6rem Archivo;
 }
 
 .logo-container h2 {
-    font-weight: 500;
+    margin-top: 2rem;
     font-size: 2.4rem;
     line-height: 4.6rem;
-    margin-top: 0.8rem;
 }
 
 .buttons-container {
     display: flex;
     justify-content: center;
-    margin: 3.2rem 0;
 }
 
 .buttons-container a {
-    width: 30rem;
-    height: 10.4rem;
+    width: 15rem;
+    height: 6.4rem;
     border-radius: 0.8rem;
-    font: 400 2.0rem Archivo;
+    font: 400 1.5rem Archivo;
     
     display: flex;
     align-items: center;
@@ -51,7 +50,7 @@
 }
 
 .buttons-container a img {
-    width: 4rem;
+    width: 3rem;
 }
 
 .buttons-container a.monitor {
@@ -75,15 +74,19 @@
 }
 
 
-@media (min-width: 1100px) {
+@media (min-width: 700px) {
+    #page-landing {
+        padding-top: 10rem;
+    }
+
     #page-landing-content {
         max-width: 1100px;
         display: grid;
-        grid-template-rows: 300px 1fr;
-        grid-template-columns: 1fr 3fr 2fr;
+        grid-template-rows: 350px 1fr;
+        grid-template-columns: 2fr 1fr 1fr;
         grid-template-areas: 
         "logo hero hero"
-        "buttons total total";
+        "buttons buttons total";
     }
 
     .logo-container {
@@ -97,10 +100,14 @@
         text-align: initial;
         font-size: 3.6rem;
     }
+    
+    .logo-container img {
+        height: 100%;
+    }
 
     .hero-image {
+        width: 90%;
         grid-area: hero;
-        justify-self: end;
     }
     
     .buttons-container {
@@ -109,7 +116,13 @@
     }
 
     .buttons-container a {
+        width: 25rem;
+        height: 10rem;
         font-size: 2.4rem;
     }
 
+    .total-connections {
+        grid-area: total;
+        justify-self: end;
+    }
 }

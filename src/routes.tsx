@@ -5,6 +5,7 @@ import ChallengesList from './pages/ChallengesList';
 import Credits from './pages/Credits';
 import DayOne from './challenges/dayone';
 import DayTwo from './challenges/daytwo';
+import DayThree from './challenges/daythree';
 
 function Routes() {
     return (
@@ -14,6 +15,7 @@ function Routes() {
             <Route path="/credits" component={Credits} /> 
             <Route path="/dayone" component={DayOne} /> 
             <Route path="/daytwo" component={DayTwo} /> 
+            <Route path="/daythree" component={DayThree} /> 
         </BrowserRouter>
     )
 }

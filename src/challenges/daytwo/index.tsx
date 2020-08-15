@@ -3,7 +3,7 @@ import React from 'react';
 import './styles.css'
 import PageHeader from '../../components/Header';
 
-function DayOne() {
+function DayTwo() {
     return (
         <div id="page-day-two" className="container">
             <PageHeader
@@ -23,4 +23,4 @@ function DayOne() {
     );
 }
 
-export default DayOne;
+export default DayTwo;

@@ -1,0 +1,64 @@
+#page-day-three body{
+    height: 90vh;
+}
+
+section
+{
+    border-radius: 10%;
+    margin-top: 20%;
+    width: 100%;
+    height: 50%;
+    background: var(--color-primary-light);
+    overflow: hidden;
+    position: absolute;
+}
+.wrapper 
+{
+    height: 100%;
+    width: 50%;
+    background: var(--color-text-base);
+    overflow: hidden;
+    color: var(--color-primary-light);
+    position: absolute;
+}
+.slide
+{
+    position: absolute;
+    top: 50%;
+    white-space: nowrap;
+    font-size: 5em;
+    line-height: 220px;
+    overflow: hidden;
+    font: Archivo;
+    animation: example 10s linear infinite;
+}
+
+@keyframes example
+{
+    0%
+    {
+        transform: translate(0, -50%);
+    }
+    100%
+    {
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media (min-width: 700px) {
+    section
+{
+    margin-top: 9%; 
+    width: 100%;
+}
+
+#page-day-three {
+    max-width: 100%;
+}
+
+#page-day-three body{
+    background: var(--color-box-base);
+    height: 90vh;
+}
+
+}

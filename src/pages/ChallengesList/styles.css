@@ -35,6 +35,9 @@
     }
 
     #page-challenge-list main {
+        margin-top: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
     background: var(--color-box-base);
     max-width: 190rem;
     padding-top: 1rem;
@@ -49,15 +52,5 @@
         margin-left: 10rem;
         margin-right: 10rem;
     }
-
-    .img-container {
-        grid-area: pic;
-        margin-left: 6rem
-    }
-    .img-container-two {
-        grid-area: pics;
-        margin-left: 6rem
-    }
-
 
 }

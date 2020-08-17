@@ -10,8 +10,8 @@ function DayOne() {
                 title="Day 1 - Social Media Icons"
                 link="challengesList"
             />
-            <body>
-
+            <main>
+<div id="social-media">
                     <ul>
                         <li>
                             <a href="https://www.facebook.com/monica.mazzochihillman" target="_blank">
@@ -59,7 +59,8 @@ function DayOne() {
                             </a>
                         </li>
                     </ul>
-            </body>
+                    </div>
+            </main>
         </div>
     );
 }

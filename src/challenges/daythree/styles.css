@@ -1,10 +1,5 @@
-#page-day-three body{
-    height: 90vh;
-}
-
 section
 {
-    border-radius: 10%;
     margin-top: 20%;
     width: 100%;
     height: 50%;
@@ -12,6 +7,7 @@ section
     overflow: hidden;
     position: absolute;
 }
+
 .wrapper 
 {
     height: 100%;
@@ -54,11 +50,6 @@ section
 
 #page-day-three {
     max-width: 100%;
-}
-
-#page-day-three body{
-    background: var(--color-box-base);
-    height: 90vh;
 }
 
 }

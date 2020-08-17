@@ -5,6 +5,7 @@ import PageHeader from '../../components/Header';
 import dayOneImg from '../../assets/images/dayone.png';
 import dayTwoImg from '../../assets/images/daytwo.png';
 import dayThreeImg from '../../assets/images/daythree.png';
+import dayFourImg from '../../assets/images/dayfour.png';
 import { Link } from 'react-router-dom';
 
 
@@ -34,7 +35,10 @@ function ChallengesList() {
                     <img src={dayThreeImg} alt="Day Three" />
                 </Link>
                 </div>
-                <p>Day 4 - Button Effect</p>
+                <p>Day 4 - Animated Button</p>
+                <Link to="/dayfour">
+                    <img src={dayFourImg} alt="Day Four" />
+                </Link>
             </main>
         </div>
     );

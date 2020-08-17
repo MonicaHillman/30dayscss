@@ -1,9 +1,4 @@
-#page-day-two {
-    height: 100vh;
-}
-
-#page-day-two body{
-    background: var(--color-box-base);
+#page-day-two main{
     width: 100%;
     max-width: 74rem;
     height: 91%;
@@ -44,11 +39,6 @@
     #page-day-two {
         max-width: 2200px;
         height: 100vh;
-    }
-
-    #page-day-two body{
-        background: var(--color-box-base);
-        max-width: 190rem;
     }
 
     .loader-block {

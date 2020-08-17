@@ -10,7 +10,7 @@ function DayTwo() {
                 title="Day 2 - Animated Loader"
                 link="challengesList"
             />
-            <body>
+            <main>
                 <div className="loader-block">
                     <div className="loading">
                         LOADING
@@ -18,7 +18,7 @@ function DayTwo() {
                     <div className="loader">
                     </div>
                 </div>
-            </body>
+            </main>
         </div>
     );
 }

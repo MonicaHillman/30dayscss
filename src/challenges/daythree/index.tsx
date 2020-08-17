@@ -9,7 +9,7 @@ function DayThree() {
                 title="Day 3 - Change Color"
                 link="challengesList"
             />
-            <body>
+            <main>
                 <section>
                     <span className="slide">
                         <span>MONICA</span>
@@ -42,7 +42,7 @@ function DayThree() {
                         </span>
                     </div>
                 </section>
-            </body>
+            </main>
         </div>
 
     );

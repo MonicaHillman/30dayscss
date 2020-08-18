@@ -6,6 +6,7 @@ import dayOneImg from '../../assets/images/dayone.png';
 import dayTwoImg from '../../assets/images/daytwo.png';
 import dayThreeImg from '../../assets/images/daythree.png';
 import dayFourImg from '../../assets/images/dayfour.png';
+import dayFiveImg from '../../assets/images/dayfive.png';
 import { Link } from 'react-router-dom';
 
 
@@ -18,26 +19,24 @@ function ChallengesList() {
             />
             <main>
                 <p>Day 1 - Social Media Icons</p>
-                <div className="img-container">
                 <Link to="/dayone">
                     <img src={dayOneImg} alt="Day One" />
                 </Link>
-                </div>
                 <p>Day 2 - Animated Loader</p>
-                <div className="img-container-two">
                 <Link to="/daytwo">
                     <img src={dayTwoImg} alt="Day Two" />
                 </Link>
-                </div>
                 <p>Day 3 - Change Color</p>
-                <div className="img-container-three">
                 <Link to="/daythree">
                     <img src={dayThreeImg} alt="Day Three" />
                 </Link>
-                </div>
                 <p>Day 4 - Animated Button</p>
                 <Link to="/dayfour">
                     <img src={dayFourImg} alt="Day Four" />
+                </Link>
+                <p>Day 5 - Pulse Effect</p>
+                <Link to="/dayfive">
+                    <img src={dayFiveImg} alt="Day Five" />
                 </Link>
             </main>
         </div>

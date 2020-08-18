@@ -12,18 +12,13 @@
 #page-challenge-list main p {
     font: 400 2rem Archivo;
     color: var(--color-text-title);
-    margin-bottom: 2rem;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    margin-top: 2rem;
+    margin: 2rem;
     width: 90%;
-    padding-bottom: 1rem;
 }
 
-    #page-challenge-list main div img {
-    margin: 10px;
-    max-width: 40rem;
-    }
+#page-challenge-list main img {
+max-width: 39rem;
+}
 
 
 

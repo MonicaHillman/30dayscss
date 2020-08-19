@@ -4,12 +4,12 @@
     justify-content: center;
 }
 
-ul{
+#social-media ul{
     display: flex;
     justify-content: center;
 }
 
-ul li{
+#social-media ul li{
     position: relative;
     list-style: none;
     width: 40px;
@@ -18,7 +18,7 @@ ul li{
     transform: rotate(-35deg) skew(30deg);
 }
 
-ul li span{
+#social-media ul li span{
     border-radius: 10px;
     position: absolute;
     width: 100%;
@@ -32,52 +32,52 @@ ul li span{
     font-size: 30px !important;
 }
 
-ul li:hover span{
+#social-media ul li:hover span{
     box-shadow: -1px 1px 1px rgba(0,0,0,.1);
 }
 
-ul li:hover span:nth-child(5){
+#social-media ul li:hover span:nth-child(5){
     transform: translate(40px, -40px);
     opacity: 1;
 }
 
-ul li:hover span:nth-child(4){
+#social-media ul li:hover span:nth-child(4){
     transform: translate(30px, -30px);
     opacity: 0.8;
 }
 
-ul li:hover span:nth-child(3){
+#social-media ul li:hover span:nth-child(3){
     transform: translate(20px, -20px);
     opacity: 0.6;
 }
 
-ul li:hover span:nth-child(2){
+#social-media ul li:hover span:nth-child(2){
     transform: translate(10px, -10px);
     opacity: 0.4;
 }
 
-ul li:hover span:nth-child(1){
+#social-media ul li:hover span:nth-child(1){
     transform: translate(0,0);
     opacity: .2;
 }
 
-ul li:nth-child(1) span{
+#social-media ul li:nth-child(1) span{
     background: #4a6ebb;
 }
 
-ul li:nth-child(2) span{
+#social-media ul li:nth-child(2) span{
     background: #67b4f0;
 }
 
-ul li:nth-child(3) span{
+#social-media ul li:nth-child(3) span{
     background: #e04531;
 }
 
-ul li:nth-child(4) span{
+#social-media ul li:nth-child(4) span{
     background: #015a8a;
 }
 
-ul li:nth-child(5) span{
+#social-media ul li:nth-child(5) span{
     background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);;
 } 
 
@@ -87,7 +87,7 @@ ul li:nth-child(5) span{
         height: 100vh;
     }
 
-    ul li{
+    #social-media ul li{
         width: 60px;
         height: 60px;
     }

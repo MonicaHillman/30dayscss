@@ -7,6 +7,7 @@ import dayTwoImg from '../../assets/images/daytwo.png';
 import dayThreeImg from '../../assets/images/daythree.png';
 import dayFourImg from '../../assets/images/dayfour.png';
 import dayFiveImg from '../../assets/images/dayfive.png';
+import daySixImg from '../../assets/images/daysix.png';
 import { Link } from 'react-router-dom';
 
 
@@ -37,6 +38,10 @@ function ChallengesList() {
                 <p>Day 5 - Pulse Effect</p>
                 <Link to="/dayfive">
                     <img src={dayFiveImg} alt="Day Five" />
+                </Link>
+                <p>Day 6 - Lightning Text</p>
+                <Link to="/daysix">
+                    <img src={daySixImg} alt="Day Six" />
                 </Link>
             </main>
         </div>

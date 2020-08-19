@@ -1,0 +1,72 @@
+#lightning-text {
+  margin-top: 25rem;
+  display: flex;
+  justify-content: center;
+} 
+  
+ #lightning-text ul {
+	display: flex;
+  }
+  
+  #lightning-text ul li {
+	list-style: none;
+	font-size: 40px;
+	letter-spacing: 10px;
+	animation: lightning 3s linear infinite;
+  }
+  
+  @keyframes lightning {
+	0% { color: #000000;
+		  text-shadow: none; }
+	
+	90% { color: #1a1b35;
+		 text-shadow: none; }
+	
+	100% { color: #ffcc13;
+		text-shadow: 0 0 30px #f6e58d; }
+  }
+  
+  #lightning-text ul li:nth-child(1) {
+	animation-delay: 0;
+  }
+  #lightning-text ul li:nth-child(2) {
+	animation-delay: 0.1s;
+  }
+  #lightning-text ul li:nth-child(3) {
+	animation-delay: 0.2s;
+  }
+  #lightning-text ul li:nth-child(4) {
+	animation-delay: 0.3s;
+  }
+  #lightning-text ul li:nth-child(5) {
+	animation-delay: 0.4s;
+  }
+  #lightning-text ul li:nth-child(6) {
+	animation-delay: 0.5s;
+  }
+  #lightning-text ul li:nth-child(7) {
+	animation-delay: 0.6s;
+  }
+  #lightning-text ul li:nth-child(8) {
+	animation-delay: 0.7s;
+  }
+  #lightning-text ul li:nth-child(9) {
+	animation-delay: 0.8s;
+  }
+  #lightning-text ul li:nth-child(10) {
+	animation-delay: 0.9s;
+  }
+
+  @media (min-width: 700px) {
+
+    #page-day-six {
+        max-width: 2200px;
+	}
+	
+	  
+	#lightning-text ul li {
+		font-size: 60px;
+		letter-spacing: 20px;
+	  }
+
+}

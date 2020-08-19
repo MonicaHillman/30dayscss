@@ -56,13 +56,12 @@ display: flex;
 .texto a {
     height: 3rem;
     margin-left: 1rem;
-   
 }
 
 @media (min-width: 1100px) {
     .person-item {
         margin-top: 10rem;
-        margin-bottom: 22rem;
+        margin-bottom: 19rem;
         margin-right: 20rem;
         margin-left: 20rem;
     }

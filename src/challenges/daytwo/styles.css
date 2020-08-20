@@ -1,23 +1,14 @@
-#page-day-two main{
-    width: 100%;
-    max-width: 74rem;
-    height: 91%;
-    padding-top: 15rem;
-    overflow: hidden;
-}
-
 .loader-block {
-    position: relative;
-    top: 10%;
-    left: 35%;
+  margin-top: 24rem;
+  display: flex;
+  justify-content: center;
   }
-    
-  .loading{
+  
+  .loader-block p{
+    margin-top: 3rem;
     position: absolute;
-    top: 40%;
-    left: 7%;
-
-    font-size:20px;
+    text-align: center;
+    line-height: 80px;
   }
 
 .loader {
@@ -38,16 +29,12 @@
   @media (min-width: 700px) {
     #page-day-two {
         max-width: 2200px;
-        height: 100vh;
     }
 
     .loader-block {
-        position: absolute;
-        top: 40%;
-        left: 45%;
-    }
-
-    .loading {
-      left: 20%;
-  }
+      margin-top: 24rem;
+      display: flex;
+      justify-content: center;
+      }
+      
 }

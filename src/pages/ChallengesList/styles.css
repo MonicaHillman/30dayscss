@@ -1,7 +1,3 @@
-#page-challenge-list {
-    height: 100vh;
-}
-
 #page-challenge-list main {
     background: var(--color-box-base);
     max-width: 74rem;
@@ -17,7 +13,8 @@
 }
 
 #page-challenge-list main img {
-max-width: 39rem;
+max-width: 30rem;
+margin-left: 2rem;
 }
 
 

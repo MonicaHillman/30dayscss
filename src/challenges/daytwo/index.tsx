@@ -12,9 +12,9 @@ function DayTwo() {
             />
             <main>
                 <div className="loader-block">
-                    <div className="loading">
+                    <p>
                         LOADING
-                        </div>
+                        </p>
                     <div className="loader">
                     </div>
                 </div>

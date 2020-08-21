@@ -1,0 +1,139 @@
+#cards {
+    margin-top: 20rem;
+    display: flex;
+    justify-content: center;
+}
+
+#cards ul{
+    display: flex;
+    justify-content: center;
+}
+
+#othercards ul{
+    display: flex;
+    justify-content: center;
+}
+
+#altcards ul{
+    display: flex;
+    justify-content: center;
+}
+
+#cards ul li{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+#altcards ul li{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+#othercards ul li{
+    position: relative;
+    list-style: none;
+    width: 60px;
+    height: 60px;
+    margin: 0 10px;
+}
+
+#cards ul li span{
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: var(--color-primary);
+    font-size: 40px !important;
+}
+
+#cards ul li span img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#altcards ul li span{
+    margin-top: 2rem;
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 40px !important;
+}
+
+#altcards ul li span img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#othercards ul li span{
+    margin-top: 4rem;
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-primary);
+    color: #fff;
+    font-size: 40px !important;
+}
+
+#othercards ul li span img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#cards ul li:hover span:nth-child(2){
+    opacity: 0;
+}
+
+#altcards ul li:hover span:nth-child(2){
+    opacity: 0;
+}
+
+#othercards ul li:hover span:nth-child(2){
+    opacity: 0;
+}
+
+@media (min-width: 700px) {
+    #page-day-eight {
+        max-width: 2200px;
+        height: 100vh;
+    }
+
+    #cards ul li{
+        margin-top: -2rem;
+        width: 100px;
+        height: 100px;
+    }
+    #altcards ul li{
+        width: 100px;
+        height: 100px;
+    }
+    #othercards ul li{
+        width: 100px;
+        height: 100px;
+    }
+}

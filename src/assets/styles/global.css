@@ -56,4 +56,9 @@ body, input, button, textarea {
     :root {
         font-size: 62.5%;
     }
+
+    .container {
+        max-width: 2200px;
+        height: 100vh;
+    }
 }

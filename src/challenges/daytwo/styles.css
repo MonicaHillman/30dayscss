@@ -27,9 +27,6 @@
   }
 
   @media (min-width: 700px) {
-    #page-day-two {
-        max-width: 2200px;
-    }
 
     .loader-block {
       margin-top: 24rem;

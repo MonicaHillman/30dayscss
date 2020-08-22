@@ -52,10 +52,6 @@
 
   @media (min-width: 700px) {
 
-    #page-day-seven {
-        max-width: 2200px;
-	}
-	  
 	#preloader-animated ul li {
 		font-size: 100px;
 		letter-spacing: 20px;

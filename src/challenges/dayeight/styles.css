@@ -118,11 +118,6 @@
 }
 
 @media (min-width: 700px) {
-    #page-day-eight {
-        max-width: 2200px;
-        height: 100vh;
-    }
-
     #cards ul li{
         margin-top: -2rem;
         width: 100px;

@@ -75,11 +75,9 @@
 
 
 @media (min-width: 700px) {
-    #page-landing {
-        padding-top: 10rem;
-    }
 
     #page-landing-content {
+        padding-top: 9rem;
         max-width: 1100px;
         display: grid;
         grid-template-rows: 350px 1fr;

@@ -21,10 +21,6 @@ margin-left: 2rem;
 
 @media (min-width: 700px) {
 
-    #page-challenge-list {
-        max-width: 2200px;
-        height: 100vh;
-    }
 
     #page-challenge-list main {
         margin-top: 20px;

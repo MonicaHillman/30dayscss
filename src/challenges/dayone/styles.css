@@ -82,10 +82,6 @@
 } 
 
 @media (min-width: 700px) {
-    #page-day-one {
-        max-width: 2200px;
-        height: 100vh;
-    }
 
     #social-media ul li{
         width: 60px;

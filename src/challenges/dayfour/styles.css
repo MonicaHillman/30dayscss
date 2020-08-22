@@ -35,11 +35,3 @@
     transform: translateX(-100%);
   }
 
-
-  @media (min-width: 700px) {
-
-    #page-day-four {
-        max-width: 2200px;
-    }
-
-}

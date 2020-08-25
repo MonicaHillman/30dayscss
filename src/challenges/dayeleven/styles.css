@@ -1,0 +1,22 @@
+.agro {
+  margin-top: 24rem;
+  display: flex;
+  justify-content: center;
+}
+
+.agro span::before
+{
+    font-size: 50px;
+    color: var(--color-primary);
+    content: '';
+    animation: swith 4s infinite;
+}
+
+@keyframes swith 
+{
+    0% {content: 'tech'}
+
+    50%{content: 'pop';}
+
+    100%{content: 'tudo';}
+}

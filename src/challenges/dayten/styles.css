@@ -2,7 +2,7 @@
   margin-top: 30rem;
 }
 
-h1 {
+.glitch h1 {
   text-align: center;
   font-size: 4em;
   letter-spacing: 4px;
@@ -14,12 +14,12 @@ h1 {
   animation: glitch1 2.5s infinite;
 }
 
-h1:nth-child(2) {
+.glitch h1:nth-child(2) {
   color: #67f3da;
   animation: glitch2 2.5s infinite;
 }
 
-h1:nth-child(3) {
+.glitch h1:nth-child(3) {
   color: #f16f6f;
   animation: glitch3 2.5s infinite;
 }
@@ -194,7 +194,7 @@ h1:nth-child(3) {
   .glitch {
     margin-top: 20rem;
   }
-  h1 {
+  .glitch h1 {
     font-size: 5em;
   }
 }

@@ -1,0 +1,20 @@
+.message h1 {
+	margin: 5%;
+	font-size: 30px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.message p {
+	margin: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: transparent;
+	font-size: 60px;
+}
+
+.message p:hover {
+      color: black;
+}

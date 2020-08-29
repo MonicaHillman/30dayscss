@@ -1,0 +1,77 @@
+.terminal {
+  margin-top: 99px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 220px;
+  height: 220px;
+  border: 1px solid #fff;
+  background-color: black;
+  border-radius: 30px;
+  box-shadow: 0 2px 10px #eee;
+}
+
+.terminal i {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  border-radius: 30px;
+  background-color: #eee;
+  margin: 5px;
+}
+
+.terminal i:nth-child(1) {
+  background-color: red;
+}
+
+.terminal i:nth-child(2) {
+  background-color: gold;
+}
+
+.terminal i:nth-child(3) {
+  background-color: lawngreen;
+}
+
+.display p {
+  color: #fff;
+  width: 100px;
+  font-family: monospace;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: 2px solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 10px; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: 0.15em; /* Adjust as needed */
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
+
+.menu {
+  height: 36px;
+  display: flex;
+  align-items: center;
+  background-color: #ddd;
+}
+
+@media (min-width: 700px) {
+  .terminal {
+    width: 600px;
+    height: 400px;
+  }
+
+  .terminal i {
+    margin: 5px;
+  }
+
+  .display p {
+    width: 119px;
+    font-size: 15px;
+  }
+}

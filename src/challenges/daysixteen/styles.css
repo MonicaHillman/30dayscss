@@ -1,0 +1,30 @@
+.scene{
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image{
+    width: 260px;
+    overflow: hidden;
+    cursor: pointer;
+    position: relative;
+    margin: 2px;
+}
+
+.image img{
+	width: 100%;
+	filter: grayscale(100%);
+	transition: .6s ease-in-out;
+}
+
+.image img:hover{
+    filter: grayscale(0%);
+}
+
+@media (min-width: 700px) {
+	.image{
+		margin: 0 20px;
+	}
+}

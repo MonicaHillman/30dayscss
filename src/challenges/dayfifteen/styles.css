@@ -1,0 +1,51 @@
+.fa-rocket {
+	position: absolute;
+	top: 50%;
+  left: 50%;
+  transform: rotate(90deg);
+  color: var(--color-primary);
+	font-size: 10em !important;
+	animation: arocket .2s linear infinite;
+	text-shadow: -10px 15px 10px rgba(0,0,0,.2);
+}
+
+.rock1 {
+  position: absolute;
+	top: 20%;
+  left: 100%;
+  color: darkgray;
+	font-size: 5em !important;
+	animation: arock 2s linear infinite;
+}
+.rock2 {
+  position: absolute;
+	top: 60%;
+  left: 100%;
+  color: darkgray;
+	font-size: 5em !important;
+	animation: arock 2s linear infinite;
+}
+
+@keyframes arocket {
+	0% {
+		transform: translate(-50%, -50%) rotate(45deg) translate(0,0);
+	}
+	50% {
+		transform: translate(-50%, -50%) rotate(45deg) translate(-5px,5px);
+	}
+	100% {
+		transform: translate(-50%, -50%) rotate(45deg) translate(0,0);
+	}
+}
+
+@keyframes arock {
+	0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(-500%);
+  }
+	100% {
+		transform: translateX(-2500%);
+	}
+}

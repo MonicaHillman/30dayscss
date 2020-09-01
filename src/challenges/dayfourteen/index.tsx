@@ -5,7 +5,7 @@ import PageHeader from "../../components/Header";
 
 function DayFourteen() {
   return (
-    <div id="page-day-thirteen" className="container">
+    <div id="page-day-fourteen" className="container">
       <PageHeader title="Day 14 - Fake Terminal" link="challengesList" />
       <main>
         <div className="terminal">

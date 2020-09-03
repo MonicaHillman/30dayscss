@@ -1,0 +1,32 @@
+.titulo {
+  font-size: 19px;
+  margin-top: 35vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cont {
+  display: flex;
+  justify-content: center;
+  direction: rtl;
+}
+.cont a {
+  font-size: 40px;
+  color: #313131;
+  transition: 0.3s all;
+}
+.cont a:hover {
+  color: #f1c40f;
+}
+.a1:hover ~ a {
+  color: #f1c40f;
+}
+.a2:hover ~ a {
+  color: #f1c40f;
+}
+.a3:hover ~ a {
+  color: #f1c40f;
+}
+.a4:hover ~ a {
+  color: #f1c40f;
+}

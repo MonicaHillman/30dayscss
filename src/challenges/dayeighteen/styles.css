@@ -1,0 +1,47 @@
+.scene {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-wrap {
+    width: 300px;
+    max-width: 100%;
+    height: 400px;
+    display: flex;
+}
+
+.card, .front, .back, .card-photo{
+    width: 100%;
+    height: 100%;
+}
+
+.card-face {
+    position: absolute;
+    backface-visibility: hidden;
+}
+
+.card {
+    position: relative;
+    transform-style: preserve-3d;
+    transition: transform 1s, box-shadow .4s;
+    box-shadow: 0 1px 2px 0 rgba(60,64,67,0.302), 0 1px 3px 1px rgba(60,64,67,0.149);
+    border-radius: 10px;
+}
+
+.card-photo {
+    border-radius: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 1px 3px 0 rgba(60,64,67,0.302), 0 4px 8px 3px rgba(60,64,67,0.149);
+    transform: rotateY( 180deg );
+}
+
+.back {
+    transform: rotateY( 180deg );
+}
+
+.flipcard {
+    opacity: 0;
+}

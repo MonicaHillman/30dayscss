@@ -8,17 +8,18 @@ import dayThreeImg from "../../assets/images/daythree.png";
 import dayFourImg from "../../assets/images/dayfour.png";
 import dayFiveImg from "../../assets/images/dayfive.png";
 import daySixImg from "../../assets/images/daysix.png";
-import daySevenImg from "../../assets/images/dayseven.png";
-import dayEightImg from "../../assets/images/dayeight.png";
-import dayNineImg from "../../assets/images/daynine.png";
-import dayTenImg from "../../assets/images/dayten.png";
-import dayElevenImg from "../../assets/images/dayeleven.png";
-import dayTwelveImg from "../../assets/images/daytwelve.png";
-import dayThirteenImg from "../../assets/images/daythirteen.png";
-import dayFourteenImg from "../../assets/images/dayfourteen.png";
-import dayFifteenImg from "../../assets/images/dayfifteen.png";
-import daySixteenImg from "../../assets/images/daysixteen.png";
-import daySeventeenImg from "../../assets/images/dayseventeen.png";
+import daySevenImg from '../../assets/images/dayseven.png';
+import dayEightImg from '../../assets/images/dayeight.png';
+import dayNineImg from '../../assets/images/daynine.png';
+import dayTenImg from '../../assets/images/dayten.png';
+import dayElevenImg from '../../assets/images/dayeleven.png';
+import dayTwelveImg from '../../assets/images/daytwelve.png';
+import dayThirteenImg from '../../assets/images/daythirteen.png';
+import dayFourteenImg from '../../assets/images/dayfourteen.png';
+import dayFifteenImg from '../../assets/images/dayfifteen.png';
+import daySixteenImg from '../../assets/images/daysixteen.png';
+import daySeventeenImg from '../../assets/images/dayseventeen.png';
+import dayEighteenImg from '../../assets/images/dayeighteen.png';
 
 import { Link } from "react-router-dom";
 
@@ -94,6 +95,10 @@ function ChallengesList() {
         <p>Day 17 - Star Rating</p>
         <Link to="/dayseventeen">
           <img src={daySeventeenImg} alt="Day Seventeen" />
+        </Link>
+        <p>Day 18 - Flip Card</p>
+        <Link to="/dayeighteen">
+          <img src={dayEighteenImg} alt="Day Eighteen" />
         </Link>
       </main>
     </div>

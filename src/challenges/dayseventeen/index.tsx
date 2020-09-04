@@ -8,7 +8,7 @@ import PageHeader from "../../components/Header";
 function DaySeventeen() {
   return (
     <div id="page-day-seventeen" className="container">
-      <PageHeader title="Day 16 - Star Rating" link="challengesList" />
+      <PageHeader title="Day 17 - Star Rating" link="challengesList" />
       <main>
         <p className="titulo">Avalie nosso aplicativo!</p>
         <br></br>

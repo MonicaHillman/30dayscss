@@ -1,0 +1,74 @@
+.bg ul {
+  position: absolute;
+  left: 35%;
+  top: 30%;
+}
+
+.bg ul li {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  position: absolute;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.5);
+  transform-origin: bottom center;
+  transform: rotate(10deg) skew(-30deg);
+  transition: .5s;
+}
+
+.bg ul li img {
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.bg ul li:nth-child(1) {
+  transform: rotate(10deg) skew(-30deg) translate(15px, 15px)
+}
+
+.bg ul li:nth-child(2) {
+  transform: rotate(10deg) skew(-30deg) translate(0px, 0px)
+}
+
+.bg ul li:nth-child(3) {
+  transform: rotate(10deg) skew(-30deg) translate(-15px, -15px)
+}
+
+.bg ul:hover li:nth-child(1) {
+    transform: rotate(5deg) skew(0deg) translate(100px, 0)
+}
+
+.bg ul:hover li:nth-child(2) {
+  transform: rotate(0deg) skew(0deg) translate(0, 0)
+}
+
+.bg ul:hover li:nth-child(3) {
+  transform: rotate(-5deg) skew(0deg) translate(-100px, 0)
+}
+
+@media (min-width: 700px) {
+  .bg ul {
+    left: 42%;
+    top: 30%;
+  }
+  
+  .bg ul li {
+    width: 200px;
+    height: 280px;
+  }
+  
+  .bg ul li img {
+    width: 200px;
+    height: 280px;
+  }
+  
+  .bg ul:hover li:nth-child(1) {
+      transform: rotate(5deg) skew(0deg) translate(200px, 0)
+  }
+  
+  .bg ul:hover li:nth-child(3) {
+    transform: rotate(-5deg) skew(0deg) translate(-200px, 0)
+  }
+  
+  
+}

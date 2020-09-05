@@ -20,6 +20,7 @@ import dayFifteenImg from '../../assets/images/dayfifteen.png';
 import daySixteenImg from '../../assets/images/daysixteen.png';
 import daySeventeenImg from '../../assets/images/dayseventeen.png';
 import dayEighteenImg from '../../assets/images/dayeighteen.png';
+import dayNineteenImg from '../../assets/images/daynineteen.png';
 
 import { Link } from "react-router-dom";
 
@@ -99,6 +100,10 @@ function ChallengesList() {
         <p>Day 18 - Flip Card</p>
         <Link to="/dayeighteen">
           <img src={dayEighteenImg} alt="Day Eighteen" />
+        </Link>
+        <p>Day 19 - Typography</p>
+        <Link to="/daynineteen">
+          <img src={dayNineteenImg} alt="Day Nineteen" />
         </Link>
       </main>
     </div>

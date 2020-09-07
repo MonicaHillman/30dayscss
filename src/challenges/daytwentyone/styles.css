@@ -1,0 +1,59 @@
+.scene .box {
+  text-align: center;
+}
+
+.scene .box .icon .fa {
+  font-size: 80px;
+  cursor: pointer;
+  color: #015a8a;
+}
+
+.scene .box .icon h3,
+.scene .box .icon h4 {
+  position: relative;
+  overflow: hidden;
+  font-weight: 400px;
+  margin: 0;
+  padding: 2px 5px;
+  font-size: 24px;
+  transition-delay: 0.3333s;
+  color: transparent;
+}
+
+.container .box .fa:hover ~ h3,
+.container .box .fa:hover ~ h4 {
+	color: #000;
+}
+
+.container .box .icon h4 {
+  font-weight: 600;
+  margin: 5px 0;
+  font-style: 30px;
+}
+
+.scene .box .icon h3::before,
+.scene .box .icon h4::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 100%;
+  width: 100%;
+  height: 100%;
+  background: #015a8a;
+  transition: 1s;
+}
+
+.container .box .icon h4::before {
+  left: initial;
+  right: 100%;
+  background: #9c27b0;
+}
+
+.scene .box .fa:hover ~ h3::before {
+  left: -100%;
+}
+
+.scene .box .fa:hover ~ h4::before {
+  left: initial;
+  right: -100%;
+}

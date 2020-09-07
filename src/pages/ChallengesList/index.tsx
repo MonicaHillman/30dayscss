@@ -22,6 +22,7 @@ import daySeventeenImg from '../../assets/images/dayseventeen.png';
 import dayEighteenImg from '../../assets/images/dayeighteen.png';
 import dayNineteenImg from '../../assets/images/daynineteen.png';
 import dayTwentyImg from '../../assets/images/daytwenty.png';
+import dayTwentyOneImg from '../../assets/images/daytwentyone.png';
 
 import { Link } from "react-router-dom";
 
@@ -109,6 +110,10 @@ function ChallengesList() {
         <p>Day 20 - Isometric Cards</p>
         <Link to="/daytwenty">
           <img src={dayTwentyImg} alt="Day Twenty" />
+        </Link>
+        <p>Day 21 - Social Media</p>
+        <Link to="/daytwentyone">
+          <img src={dayTwentyOneImg} alt="Day Twenty One" />
         </Link>
       </main>
     </div>

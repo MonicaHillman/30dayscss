@@ -1,0 +1,50 @@
+.scene .cards {
+  position: relative;
+  width: 300px;
+  height: 200px;
+}
+
+.scene .cards .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+}
+
+.scene .cards .face.face1 {
+  background: var(--color-primary);
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  transform-origin: bottom;
+}
+
+.scene .cards .face.face1 img {
+  margin-left: 12%;
+  max-width: 100px;
+}
+
+.scene .cards .face.face1 h3 {
+  color: #fff;
+  font-size: 1.5em;
+}
+
+.scene .cards:hover .face.face1 {
+  transform: translateY(-100%) rotateX(90deg);
+  background: var(--color-primary-darker)
+}
+
+.scene .cards .face.face2 {
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  transform-origin: top;
+  transform: translateY(100%) rotateX(90deg);
+}
+
+.scene .cards:hover .face.face2 {
+  transform: translateY(0%) rotateX(0deg);
+
+}

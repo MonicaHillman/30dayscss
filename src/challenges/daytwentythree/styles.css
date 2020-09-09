@@ -1,0 +1,46 @@
+.scene .cardd {
+  position: relative;
+  max-width: 300px;
+  height: 300px;
+  margin: 30px 10px;
+  padding: 20px 15px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 5px 202px rgba(0,0,0,0.5);
+  transition: 0.5s ease-in-out;
+}
+
+.scene .cardd:hover {
+  height: 420px;
+}
+
+.scene .cardd .imgBx {
+  position: relative;
+  width: 260px;
+  height: 260px;
+  z-index: 1;
+}
+
+.scene .cardd .imgBx img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-left: 2px;
+}
+
+.scene .cardd .content {
+  position: relative;
+  margin-top: -140px;
+  padding: 10px 15px;
+  text-align: center;
+  color: #111;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s ease-in-out
+}
+
+.scene .cardd:hover .content {
+  visibility: visible;
+  opacity: 1;
+  margin-top: 2px;
+  transition-delay: 0.3s;
+}

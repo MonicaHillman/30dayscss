@@ -24,6 +24,7 @@ import dayNineteenImg from '../../assets/images/daynineteen.png';
 import dayTwentyImg from '../../assets/images/daytwenty.png';
 import dayTwentyOneImg from '../../assets/images/daytwentyone.png';
 import dayTwentyTwoImg from '../../assets/images/daytwentytwo.png';
+import dayTwentyThreeImg from '../../assets/images/daytwentythree.png';
 
 import { Link } from "react-router-dom";
 
@@ -119,6 +120,10 @@ function ChallengesList() {
         <p>Day 22 - Card Hover</p>
         <Link to="/daytwentytwo">
           <img src={dayTwentyTwoImg} alt="Day Twenty Two" />
+        </Link>
+        <p>Day 23 - Card Hover</p>
+        <Link to="/daytwentythree">
+          <img src={dayTwentyThreeImg} alt="Day Twenty Three" />
         </Link>
       </main>
     </div>

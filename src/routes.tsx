@@ -26,6 +26,7 @@ import DayTwenty from './challenges/daytwenty';
 import DayTwentyOne from './challenges/daytwentyone';
 import DayTwentyTwo from './challenges/daytwentytwo';
 import DayTwentyThree from './challenges/daytwentythree';
+import DayTwentyFour from './challenges/daytwentyfour';
 
 function Routes() {
     return (
@@ -56,6 +57,7 @@ function Routes() {
             <Route path="/daytwentyone" component={DayTwentyOne}/>    
             <Route path="/daytwentytwo" component={DayTwentyTwo}/>   
             <Route path="/daytwentythree" component={DayTwentyThree}/> 
+            <Route path="/daytwentyfour" component={DayTwentyFour}/>
         </BrowserRouter>
     )
 }

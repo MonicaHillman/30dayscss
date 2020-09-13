@@ -1,0 +1,50 @@
+.carta
+{
+  position: relative;
+  margin: 20px 0;
+  width: 300px;
+  height: 400px;
+  background: #fff;
+  transform-style: preserve-3d;
+  transform: perspective(2000px);
+  transition: 1s;
+  box-shadow: inset 300px 0 50px rgba(0,0,0,.5);
+}
+
+.carta:hover
+{
+  z-index: 1000;
+  transform: perspective(2000px) rotate(-10deg);
+  box-shadow: inset 20px 0 50px rgba(0,0,0,.5);
+}
+
+.carta .imgBox 
+{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  transform-origin: left;
+  z-index: 1;
+  transition: 1s;
+}
+
+.carta:hover .imgBox 
+{
+  transform: rotateY(-135deg);
+}
+
+.carta .details 
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 20px;
+}
+
+.carta .details h2 
+{
+  color: crimson;
+  font-family: Archivo;
+}

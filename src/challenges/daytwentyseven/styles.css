@@ -1,0 +1,46 @@
+.center ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.center ul li {
+  list-style: none;
+  color: #000;
+  font-size: 6em;
+  font-weight: bold;
+  letter-spacing: 10px;
+  filter: blur(1px);
+}
+
+.center ul:hover li {
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+  0%
+  {
+    transform: rotate(0deg) translateY(0px);
+    opacity: 1;
+    filter: blur(1px);
+  }
+  100%
+  {
+    transform: rotate(45deg) translateY(-200px);
+    opacity: 0;
+    filter: blur(20px);
+  }
+}
+
+ul li:nth-child(1)
+{
+  animation-delay: 0s;
+}
+ul li:nth-child(2)
+{
+  animation-delay: .4s;
+}
+ul li:nth-child(3)
+{
+  animation-delay: .8s;
+}

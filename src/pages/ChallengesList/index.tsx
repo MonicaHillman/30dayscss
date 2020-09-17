@@ -29,7 +29,7 @@ import dayTwentyFourImg from '../../assets/images/daytwentyfour.png';
 import dayTwentyFiveImg from '../../assets/images/daytwentyfive.png';
 import dayTwentySixImg from '../../assets/images/daytwentysix.png';
 import dayTwentySevenImg from '../../assets/images/daytwentyseven.png';
-
+import dayTwentyEightImg from '../../assets/images/daytwentyeight.png';
 import { Link } from "react-router-dom";
 
 function ChallengesList() {
@@ -144,6 +144,10 @@ function ChallengesList() {
         <p>Day 27 - Smoke Effect</p>
         <Link to="/daytwentyseven">
           <img src={dayTwentySevenImg} alt="Day Twenty Seven"/>
+        </Link>
+        <p>Day 28 - Glowing Gradient</p>
+        <Link to="/daytwentyeight">
+          <img src={dayTwentyEightImg} alt="Day Twenty Eight"/>
         </Link>
       </main>
     </div>

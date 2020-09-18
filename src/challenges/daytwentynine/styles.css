@@ -1,0 +1,81 @@
+.boxes {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 290px;
+}
+
+.boxes .catcard {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.5);
+  transition: 0.5s;
+  transform-origin: bottom;
+  border-radius: 5px;
+}
+
+.boxes .catcard:nth-child(1) {
+  background: url(../../assets/images/desafio/gato4.png);
+  background-size: 100%;
+  transform: translate(0px, 0px);
+}
+.boxes .catcard:nth-child(2) {
+  background: url(../../assets/images/desafio/gato5.png);
+  background-size: 100%;
+  transform: translate(2px, 2px);
+}
+.boxes .catcard:nth-child(3) {
+  background: url(../../assets/images/desafio/gato6.png);
+  background-size: 100%;
+  transform: translate(4px, 4px);
+}
+.boxes .catcard:nth-child(4) {
+  background: url(../../assets/images/desafio/gato8.png);
+  background-size: 100%;
+  transform: translate(6px, 6px);
+}
+.boxes .catcard:nth-child(5) {
+  background: url(../../assets/images/desafio/gato9.png);
+  background-size: 100%;
+  transform: translate(8px, 8px);
+}
+.boxes .catcard:nth-child(6) {
+  background: url(../../assets/images/desafio/gato10.png);
+  background-size: 100%;
+  transform: translate(10px, 10px);
+}
+.boxes .catcard:nth-child(7) {
+  background: url(../../assets/images/desafio/gato11.png);
+  background-size: 100%;
+  transform: translate(12px, 12px);
+}
+
+.boxes:hover .catcard:nth-child(1) {
+  transform: rotate(-45deg) translate(0px, 0px);
+}
+.boxes:hover .catcard:nth-child(2) {
+  transform: rotate(-30deg) translate(0px, 0px);
+}
+.boxes:hover .catcard:nth-child(3) {
+  transform: rotate(-15deg) translate(0px, 0px);
+}
+.boxes:hover .catcard:nth-child(4) {
+  transform: rotate(0deg) translate(0px, 0px);
+}
+.boxes:hover .catcard:nth-child(5) {
+  transform: rotate(15deg) translate(0px, 0px);
+}
+.boxes:hover .catcard:nth-child(6) {
+  transform: rotate(30deg) translate(0px, 0px);
+}
+.boxes:hover .catcard:nth-child(7) {
+  transform: rotate(45deg) translate(0px, 0px);
+}
+
+.boxes .catcard:hover {
+  z-index: 1;
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+}

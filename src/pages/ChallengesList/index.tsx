@@ -30,6 +30,7 @@ import dayTwentyFiveImg from '../../assets/images/daytwentyfive.png';
 import dayTwentySixImg from '../../assets/images/daytwentysix.png';
 import dayTwentySevenImg from '../../assets/images/daytwentyseven.png';
 import dayTwentyEightImg from '../../assets/images/daytwentyeight.png';
+import dayTwentyNineImg from '../../assets/images/daytwentynine.png';
 import { Link } from "react-router-dom";
 
 function ChallengesList() {
@@ -148,6 +149,10 @@ function ChallengesList() {
         <p>Day 28 - Glowing Gradient</p>
         <Link to="/daytwentyeight">
           <img src={dayTwentyEightImg} alt="Day Twenty Eight"/>
+        </Link>
+        <p>Day 29 - Card Hover</p>
+        <Link to="/daytwentynine">
+          <img src={dayTwentyNineImg} alt="Day Twenty Nine"/>
         </Link>
       </main>
     </div>

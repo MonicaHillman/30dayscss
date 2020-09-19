@@ -1,4 +1,4 @@
-ul li {
+#page-day-twentyeight ul li {
   position: relative;
   list-style: none;
   width: 100px;
@@ -10,8 +10,8 @@ ul li {
  
 }
 
-ul li::before,
-ul li::after {
+#page-day-twentyeight ul li::before,
+#page-day-twentyeight ul li::after {
   content: "";
   position: absolute;
   top: 0;
@@ -26,16 +26,16 @@ ul li::after {
   z-index: -1;
 }
 
-ul li::after {
+#page-day-twentyeight ul li::after {
   filter: blur(40px);
 }
 
-ul li:hover::before,
-ul li:hover::after {
+#page-day-twentyeight ul li:hover::before,
+#page-day-twentyeight ul li:hover::after {
   opacity: 1;
 }
 
-ul li a {
+#page-day-twentyeight ul li a {
   position: absolute;
   top: 10px;
   left: 10px;
@@ -49,45 +49,45 @@ ul li a {
   border-radius: 50%;
 }
 
-ul li a .fa {
+#page-day-twentyeight ul li a .fa {
   text-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
   transition: 0.5s;
   transform: rotateY(0deg) scale(0.8);
   opacity: 0.2;
 }
 
-ul li a:hover .fa {
+#page-day-twentyeight ul li a:hover .fa {
   opacity: 1;
   transform: scale(1.2);
 }
 
-ul li:nth-child(1) a,
-ul li:nth-child(1)::before,
-ul li:nth-child(1)::after {
+#page-day-twentyeight ul li:nth-child(1) a,
+#page-day-twentyeight ul li:nth-child(1)::before,
+#page-day-twentyeight ul li:nth-child(1)::after {
   background: linear-gradient(90deg, #262829, #0c0e0f);
 }
 
-ul li:nth-child(2) a,
-ul li:nth-child(2)::before,
-ul li:nth-child(2)::after {
+#page-day-twentyeight ul li:nth-child(2) a,
+#page-day-twentyeight ul li:nth-child(2)::before,
+#page-day-twentyeight ul li:nth-child(2)::after {
   background: linear-gradient(90deg, #015a8a, #043b58);
 }
 
-ul li:nth-child(3) a,
-ul li:nth-child(3)::before,
-ul li:nth-child(3)::after {
+#page-day-twentyeight ul li:nth-child(3) a,
+#page-day-twentyeight ul li:nth-child(3)::before,
+#page-day-twentyeight ul li:nth-child(3)::after {
   background: linear-gradient(90deg, #67b4f0, #4f8dbd);
 }
 
-ul li:nth-child(4) a,
-ul li:nth-child(4)::before,
-ul li:nth-child(4)::after {
+#page-day-twentyeight ul li:nth-child(4) a,
+#page-day-twentyeight ul li:nth-child(4)::before,
+#page-day-twentyeight ul li:nth-child(4)::after {
   background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);;
 }
 
 
 @media (min-width: 700px) {
-  ul {
+  #page-day-twentyeight   ul {
     margin: 0;
     padding: 0;
     display: flex;

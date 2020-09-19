@@ -16,10 +16,10 @@
   color: #03a9f4;
   overflow: hidden;
   border-bottom: 16px solid #03a9f4;
-  animation: animate 10s linear infinite;
+  animation: animation 10s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animation {
   0% {
     width: 0;
   }

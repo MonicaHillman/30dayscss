@@ -14,10 +14,10 @@
 }
 
 .center ul:hover li {
-  animation: animate 2s linear infinite;
+  animation: animates 2s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animates {
   0%
   {
     transform: rotate(0deg) translateY(0px);

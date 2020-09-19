@@ -2,11 +2,10 @@
 import React from "react";
 import "./styles.css";
 import PageHeader from "../../components/Header";
-import catImage from "../../assets/images/desafio/gato4.png";
 
-function DayTwentyNine() {
+function Daythirty() {
   return (
-    <div id="page-day-twentynine" className="container">
+    <div id="page-day-thirty" className="container">
       <PageHeader title="Day 29 - Card Hover" link="challengesList" />
       <main>
         <div className="scene">
@@ -25,4 +24,4 @@ function DayTwentyNine() {
   );
 }
 
-export default DayTwentyNine;
+export default Daythirty;

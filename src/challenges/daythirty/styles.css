@@ -1,0 +1,19 @@
+#page-day-thirty .box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(700px / 5);
+  height: 119px;
+  background: url(../../assets/images/desafio/megaman.png);
+  animation: animate 1s steps(5) infinite;
+}
+
+@keyframes animate {
+  from {
+    background-position: 0;
+  }
+  to {
+    background-position: -700px;
+  }
+}
